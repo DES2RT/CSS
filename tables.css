@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+/*
+table { width:100%; border-collapse:collapse; 
+	table-layout:auto; vertical-align:top; 
+	margin-bottom:15px; background-color:rgba(255, 255, 255, 1);
+	 }
+*/
+table { width:70%;}
+table thead th { 
+	border-bottom:2px solid #b30000; 
+	border-collapse:collapse; text-align:center; 
+	table-layout:auto; vertical-align:middle;}
+table tbody td { vertical-align:top; 
+	border-collapse:collapse; 
+ 	padding: 5px 10px; }
+table tbody td.right { padding-left:25px; }
+table tbody tr.light{color:#666666; background-color:#F7F7F7;}
+table tbody tr.dark{color:#666666; background-color:#E8E8E8;}
+
+table.none { width:100%; table-layout:auto; padding-left:0px;  border:none; }
+table.none td { vertical-align:top; }
+

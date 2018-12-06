@@ -1,0 +1,116 @@
+@charset "utf-8";
+fieldset, legend {margin:0; padding:0; border:none; }
+legend {display:none; }
+input, textarea, select {font-size:12px; font-family:Georgia,"Times New Roman",Times,serif; }
+
+/* Search Form--------------------------------------- */
+
+#header form {float:right; margin:40px 0 0 0; padding:0; }
+#header form input {
+			display:block; float:left; 
+			width:168px; height:25px; 
+			margin:0; padding:0 0 0 10px; 	color:#ECECEC; 
+			background:url("images/search_l.gif") 0 0 no-repeat #666666; 
+		 }
+
+/* Forms in Comment Area ------------------------------------------------ */
+
+#comments form {display:block; width:100%; }
+#comments form input {
+			width:170px; padding:4px; line-height:22px;
+			border:1px solid #ff0000; color:#00000;
+			margin:5px 5px 0 0; }
+#comments form input:hover, #comments form input:focus, #comments form input:active  { 
+			border:1.8px solid #000000; background-color:#ffffa9;}
+#comments form textarea {
+			width:98%; border:1px solid #ff0000;
+			padding:4px; color#888000;
+			overflow:auto; }
+#comments form textarea:hover, #comments form textarea:focus, #comments form textarea:active {
+			border:1.8px solid #000000; background-color:#ffffa9; }
+#comments form p {margin:5px 0; }
+#comments form #submit, #comments form #reset  	{
+			margin:0; padding:5px; cursor:pointer;}
+#comments form #submit:hover, #comments form #submit:focus, #comment form #submit:active,
+#comments form #reset:hover, #comments form #reset:focus, #comments form #reset:active {
+			background-color:#ffa; color:#0000f; font-weight:bold; }  
+
+/* Contact Form On Contact Page---------------------------------------------- */
+
+#comments form {display:block; width:100%; border:none;  }
+#comments form table { border:none; }
+#comments form table td.right {text-align:right;}
+#comments form input {vertical-align:text-bottom;
+			width:170px; padding:4px; line-height:22px;
+			border:1px solid #ff0000; color:#00000;
+			margin:5px 5px 0 0; }
+#comments form input:hover, #comments form input:focus, #comments form input:active  { 
+			border:1.8px solid #000000; background-color:#ffffa9;}
+#comments form textarea {
+			width:98%; border:1px solid #ff0000;
+			padding:10px 4px 4px 4px; color#888000;
+			overflow:auto; }
+#comments form textarea:hover, #comments form textarea:focus, #comments form textarea:active {
+			border:1.8px solid #000000; background-color:#ffffa9; }
+#comments form p {margin:5px 0; }
+#comments form #submit, #comments form #reset  	{
+			margin:0; padding:5px; cursor:pointer;}
+#comments form #submit:hover, #comments form #submit:focus, #comments form #submit:active,
+#comments form #reset:hover, #comments form #reset:focus, #comments form #reset:active {
+			background-color:#ffa; color:ffffff; font-weight:bold; }  
+/* CSS3 Elements */
+
+#comments input, #comments textarea, #comments button, #footer input, #footer textarea, #footer button{border-radius:10px;}
+input, textarea, select{resize:none; outline:none;}
+
+/* Kathy's Form On Director's Page---------------------------- */
+
+#kcomments form {display:block; width:100%; padding-top:220px; border:none; }
+#kcomments form table {width:100%; }
+#kcomments form table td.right {text-align:right;}
+#kcomments form input {vertical-align:text-bottom;
+			width:170px; padding:4px; line-height:22px;
+			border:1px solid #ff0000; color:#00000;
+			margin:5px 5px 0 0; }
+#kcomments form input:hover, #kcomments form input:focus, #kcomments form input:active  { 
+			border:1.8px solid #000000; background-color:#ffffa9;}
+#kcomments form textarea {
+			width:98%; border:1px solid #ff0000;
+			padding:10px 4px 4px 4px; color#888000;
+			overflow:auto; }
+#kcomments form textarea:hover, #kcomments form textarea:focus, #kcomments form textarea:active {
+			border:1.8px solid #000000; background-color:#ffffa9; }
+#kcomments form p {margin:5px 0; }
+#kcomments form #submit, #kcomments form #reset  	{
+			margin:0; padding:5px; cursor:pointer;}
+#kcomments form #submit:hover, #kcomments form #submit:focus, #kcomments form #submit:active,
+#kcomments form #reset:hover, #kcomments form #reset:focus, #kcomments form #reset:active {
+			background-color:#ffa; color:ffffff;  }  
+
+/* Add/Update Form ----------------------------------------------- */
+
+#addcomments form {display:block; width:100%; padding-top:20px;border:5px solid black; }
+#addcomments form table {width:100%; }
+#addcomments form table td.right {text-align:right;}
+#addcomments form input {vertical-align:text-bottom;
+			width:170px; padding:4px; line-height:22px;
+			border:1px solid #ff0000; color:#00000;
+			margin:5px 5px 0 0; }
+#addcomments form input:hover, #addcomments form input:focus, #addcomments form input:active  { 
+			border:1.8px solid #000000; background-color:#ffffa9;}
+#addcomments form textarea {
+			width:98%; border:1px solid #ff0000;
+			padding:10px 4px 4px 4px; color#888000;
+			overflow:auto; }
+#addcomments form textarea:hover, #addcomments form textarea:focus, #addcomments form textarea:active {
+			border:1.8px solid #000000; background-color:#ffffa9; }
+#addcomments form p {margin:5px 0; }
+#addcomments form #submit, #addcomments form #reset  	{
+			margin:0; padding:5px; cursor:pointer;}
+#addcomments form #submit:hover, #addcomments form #submit:focus, #addcomments form #submit:active, #addcomments form #reset:hover, #addcomments form #reset:focus, #addcomments form #reset:active {
+			background-color:#ffa; color:ffffff; font-weight:bold; }  
+					
+/* CSS3 Elements */
+
+#kcomments input, #kcomments textarea, #kcomments button, #footer input, #footer textarea, #footer button{border-radius:10px;}
+input, textarea, select{resize:none; outline:none;}
